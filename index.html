@@ -6,13 +6,9 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="text-center">Marvel Superhero Hunter</h1>
-    <div class="mt-3">
-        <input type="text" id="search-input" class="form-control" placeholder="Search character...">
-        <!-- <button class="btn btn-primary mt-3" id="search-button">Search</button> -->
-    </div>
     <br>
-    <br>
+    <h3 class="text-center">Marvel Superhero Hunter</h3>
+
     <ul class="nav nav-tabs mb-3">
       <li class="nav-item">
         <a class="nav-link active" id="all-characters-tab" data-toggle="tab" href="#all-characters">All Characters</a>
@@ -24,6 +20,11 @@
 
     <div class="tab-content">
       <div class="tab-pane fade show active" id="all-characters">
+        <div class="mt-3">
+          <input type="text" id="search-input" class="form-control" placeholder="Search character...">
+          <!-- <button class="btn btn-primary mt-3" id="search-button">Search</button> -->
+        </div>
+        <br>
         <div class="row" id="character-container"></div>
       </div>
       <div class="tab-pane fade" id="favorites">
